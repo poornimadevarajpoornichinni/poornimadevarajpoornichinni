@@ -1,0 +1,7 @@
+# List of tuples
+tuples = [(1, 4), (3, 1), (5, 9), (2, 6)]
+
+# Sort the list based on the second element of each tuple
+sorted_tuples = sorted(tuples, key=lambda x: x[1])
+
+print(sorted_tuples)
