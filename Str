@@ -1,0 +1,8 @@
+def is_armstrong(n):
+    digits = str(n)
+    num_digits = len(digits)
+    total = sum(int(digit) ** num_digits for digit in digits)
+    return total == n
+
+result = is_armstrong(153)
+print(result)
