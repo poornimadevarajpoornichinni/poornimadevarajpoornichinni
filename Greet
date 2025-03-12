@@ -1,0 +1,6 @@
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+# Example usage
+greet("Alice")  # Using the provided argument
+greet()         # Using the default argument
