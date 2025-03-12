@@ -1,0 +1,6 @@
+import math_functions
+
+print(math_functions.add(5, 3))
+print(math_functions.subtract(5, 3))
+print(math_functions.multiply(5, 3))
+print(math_functions.divide(5, 0))
