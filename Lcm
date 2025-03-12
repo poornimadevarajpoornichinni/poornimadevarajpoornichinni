@@ -1,0 +1,5 @@
+def lcm(a, b):
+    return abs(a * b) // gcd(a, b)
+
+result = lcm(4, 5)
+print(result)
