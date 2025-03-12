@@ -1,0 +1,11 @@
+import math
+
+def math_operations(n):
+    sqrt = math.sqrt(n)
+    fact = math.factorial(n) if n >= 0 and n.is_integer() else "Factorial not defined"
+    sine = math.sin(n)
+    
+    return sqrt, fact, sine
+
+result = math_operations(5)
+print(result)
