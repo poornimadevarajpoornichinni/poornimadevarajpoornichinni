@@ -1,0 +1,7 @@
+def find_max_min(lst):
+    return max(lst), min(lst)
+
+numbers = [10, 20, 30, 40, 50]
+largest, smallest = find_max_min(numbers)
+print("Largest number:", largest)
+print("Smallest number:", smallest)
