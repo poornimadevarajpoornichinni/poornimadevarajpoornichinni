@@ -1,0 +1,5 @@
+numbers = [10, 20, 30, 40, 50]
+numbers.remove(30)  # Removes the first occurrence of 30
+popped_element = numbers.pop(2)  # Removes element at index 2
+print("List after removal:", numbers)
+print("Popped element:", popped_element)
