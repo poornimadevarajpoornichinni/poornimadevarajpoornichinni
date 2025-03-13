@@ -1,0 +1,11 @@
+my_dict = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+# Remove a key-value pair using del
+del my_dict["age"]
+# Or using pop() method
+city_value = my_dict.pop("city")
+print("Dictionary after removal:", my_dict)
+print("Removed city value:", city_value)
