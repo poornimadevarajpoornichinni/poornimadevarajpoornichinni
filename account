@@ -1,0 +1,16 @@
+class bank:
+  def_int_(self,balance=0)
+  self.balance=balance
+  def invest(self,amount):
+    self.balance +=amount
+    print(f"current balance{self.balance}")
+    def withdraw(self,amount):
+      if amount<balance:
+        self.balance-=amount
+        print(f"current balance{self.balance}")
+      else:
+        print(f"current balance{self.balance}")
+        else:
+          print("no balance")
+          obj1=bank()
+          obj2=bank() 
