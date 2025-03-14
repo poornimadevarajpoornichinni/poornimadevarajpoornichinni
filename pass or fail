@@ -1,0 +1,7 @@
+from os import name
+#pass or fail
+class student:
+  def_init_(self,name,marks)
+  self.name=nameself.marks=marks
+  def passorfail(self):
+    
