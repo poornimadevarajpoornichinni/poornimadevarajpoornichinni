@@ -1,0 +1,10 @@
+#Encapsulation
+class sushma:
+  def _init_(self):
+     self.pub = "ok"
+     self._rajesh="not ok"
+    def thirisha_private(self):
+       print(self._rajesh)
+    neha=sushma()
+    print(neha.pub)
+    neha.thirisha_private()
