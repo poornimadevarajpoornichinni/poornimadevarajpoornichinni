@@ -1,0 +1,7 @@
+
+class parrot(bird):
+  def speak(self):
+    print("I mimic")
+          
+          
+
