@@ -1,0 +1,4 @@
+try:
+    x = 10 / 0  # This will cause a ZeroDivisionError
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
