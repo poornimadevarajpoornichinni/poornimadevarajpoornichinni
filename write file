@@ -1,0 +1,4 @@
+text = input("Enter text to write to file: ")
+with open("output.txt", "w") as file:
+    file.write(text)
+print("Text written to file successfully.")
