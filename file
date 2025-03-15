@@ -1,0 +1,6 @@
+try:
+    f = open("file.txt", "r")  # Trying to open a non-existent file
+except FileNotFoundError:
+    print("File not found!")
+finally:
+    print("This always runs.")
